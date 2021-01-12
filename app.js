@@ -28,7 +28,7 @@ telBtn.addEventListener("click", () => {
   if (window.scrollY == 0) {
     contactPopOut.style.right = "0px";
     contactPopOut.style.display = "flex";
-    navigation.style.transform = "translateX(-280px)";
+    navigation.style.transform = "translateX(-250px)";
     navigation.style.pointerEvents = "none";
     navigation.classList.remove("contactPopOutClassMobile");
     document.body.style.overflow = "hidden";
@@ -42,7 +42,7 @@ menu.addEventListener("click", () => {
   if (window.scrollY == 0) {
     menuPopOut.style.right = "0";
     menuPopOut.style.display = "flex";
-    navigation.style.transform = "translateX(-280px)";
+    navigation.style.transform = "translateX(-250px)";
     navigation.style.pointerEvents = "none";
     navigation.classList.remove("contactPopOutClassMobile");
     document.body.style.overflow = "hidden";
